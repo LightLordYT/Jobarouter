@@ -82,7 +82,7 @@ export default function CareerDetails() {
 const options: {} = {
 	method: "GET",
 	headers: {
-		"X-RapidAPI-Key": process.env.API_KEY,
+		"X-RapidAPI-Key": import.meta.env.VITE_API_KEY,
 		"X-RapidAPI-Host": "jsearch.p.rapidapi.com",
 	},
 }
