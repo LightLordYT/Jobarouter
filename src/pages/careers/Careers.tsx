@@ -20,10 +20,10 @@ export default function Careers() {
 	)
 }
 
-const options = {
+const options: {} = {
 	method: "GET",
 	headers: {
-		"X-RapidAPI-Key": "70a8470529mshb79f92d7f2116e5p16cb0cjsn9e76753a44f7",
+		"X-RapidAPI-Key": process.env.API_KEY,
 		"X-RapidAPI-Host": "jsearch.p.rapidapi.com",
 	},
 }
